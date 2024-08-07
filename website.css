@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    background-image: url("assets/8962757.jpg");
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: start;
+}
+.container{
+    justify-content: center;
+    align-items: start;
+    
+}
+.info{
+    border-radius: 8px;
+    background: rgba(0,0,0,0.7);
+    width: 550px;
+    padding: 10px;
+    color:white;
+}
+img{
+    width: 130px;  
+    opacity: 1;
+    transform: rotateY(0);
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes move {
+    from{
+        opacity: 0.3;
+        transform: rotateY(0);
+        
+    }
+    to{
+        opacity: 1;
+        transform: rotateY(360deg);
+        
+    }
+}
+
+ul{
+    display: flex;
+}
+li{
+    margin: 15px;
+    list-style: none;
+}
+.nav-link{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    /* color:black; */
+    text-align: left;
+    opacity: 1;
+}
+.lead{
+    text-align: left;
+    /* color:black; */
+    opacity: 1;
+    
+
+}
+
+
+
+
+
+  
+/* About section */
+p{
+    text-align: justify;
+}
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* features8 */
+.feature-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+}
+
+table {
+    margin-top: 20px;
+}
+.container-img{
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 10px;  
+    opacity: 1;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes move {
+    from{
+        opacity: 0.3;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+footer {
+    background-color: #343a40;
+    bottom: 0;
+}
+
+
+/* Contact us  */
+
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/6180648.jpg") no-repeat center center/cover;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+
+/* specification */
+/* #specifications{
+    height: 100vh;
+} */
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/6180648.jpg") no-repeat center center/cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
