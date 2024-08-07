@@ -192,3 +192,22 @@ p.lead {
 .card-text {
     font-size: 1rem;
 }
+@media (max-width : 576px) {
+    .hero{
+        padding: 2rem 1rem;
+    }
+    .hero h2{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 8px;
+    }
+    .info{
+        border-radius: 5px;
+        background: rgba(0,0,0,0.7);
+        width: 300px;
+        padding: 10px;
+        color:white;
+    }
+    
+}
